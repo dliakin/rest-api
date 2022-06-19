@@ -1,0 +1,27 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "Example of using Sendpulse REST API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlyakin/rest-api.git"
+  },
+  "author": "Dmitrii Liakin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlyakin/rest-api/issues"
+  },
+  "homepage": "https://github.com/dlyakin/rest-api#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
